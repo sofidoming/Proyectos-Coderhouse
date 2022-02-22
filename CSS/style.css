@@ -1,0 +1,125 @@
+*{
+    color: #494541;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Inicio de header */
+nav{
+justify-content: end;
+}
+
+.nav-link{
+list-style-type: none;
+font-size: 18px;
+color: #494541;
+}
+
+a{
+    color: #494541;
+}
+
+nav:hover{
+    color: #c7bfb8;
+}
+/* Fin de header */
+
+/* Inicio de post */
+.container{
+background-color: #FFFFFF;
+padding: 5%;
+padding-bottom: 40px;
+}
+
+.photos{
+margin-left: 1cm;
+}
+
+h2{
+    font-size: 72px;
+    margin-left: 1cm;
+}
+
+h3{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.see-more{
+    text-decoration: underline;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1cm;
+}
+/* Fin de post */
+
+/* Inicio de subscribe */
+.input-group{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 8%;
+}
+
+a:hover{
+    color: #c7bfb8;;
+}
+/* Fin de subscribe*/
+
+/* Inicio de footer*/
+footer{
+    padding: 100px;
+    background-color: #c7bfb8;
+}
+/* Fin de footer*/
+
+/* Inicio de seccion blog*/
+.photos-blog{
+    margin-left: 1cm;
+    margin-bottom: 0.3cm;
+}
+
+.post-blog{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1cm;
+    color: #494541;
+}
+
+h5{
+    font-size: 30px;
+}
+
+.pagination{
+    justify-content: center;
+    padding: 2%;
+}
+/* Fin de seccion blog*/
+
+/* Inicio de header html*/
+.header-html{
+    background-color: #c7bfb8;
+    padding: 30px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #494541;
+}
+/* Fin de header html*/
+
+/* Inicio de about me*/
+.photo-me{
+    margin-bottom: 1cm;
+}
+/* Fin de about me*/
+
+/* Inicio de contact me*/
+.contact-form{
+    padding: 5%;
+}
+/* Inicio de contact me*/
+
