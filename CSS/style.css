@@ -5,14 +5,12 @@
 }
 
 /* Inicio de header */
-nav{
-justify-content: end;
-}
-
 .nav-link{
 list-style-type: none;
 font-size: 18px;
 color: #494541;
+padding: 10px;
+margin: 5px;
 }
 
 a{
@@ -25,35 +23,45 @@ nav:hover{
 /* Fin de header */
 
 /* Inicio de post */
-.container{
-background-color: #FFFFFF;
-padding: 5%;
-padding-bottom: 40px;
-}
-
-.photos{
-margin-left: 1cm;
-}
-
-h2{
-    font-size: 72px;
-    margin-left: 1cm;
-}
-
 h3{
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
+    color: black;
+    font-size: 72px;
+}
+.textc{
+    color: black;
+    font-size: 30px;
 }
 
-.see-more{
-    text-decoration: underline;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1cm;
+.row{
+margin-left: 3cm;
+margin-right: 3cm;
 }
+
+.col-md-7{
+    margin-top: 3cm;
+}
+
+.btn-link{
+    color: #494541;
+}
+.btn-link:hover{
+    color: #c7bfb8;    
+}
+
+.btn-light{
+    color: #494541;
+}
+.btn-light:hover{
+    color: #c7bfb8;
+}
+
+hr{
+ margin-left: 3cm;
+ margin-right: 3cm;
+ margin-top: 2cm;
+ margin-bottom: 2cm;
+}
+
 /* Fin de post */
 
 /* Inicio de subscribe */
@@ -68,13 +76,6 @@ a:hover{
     color: #c7bfb8;;
 }
 /* Fin de subscribe*/
-
-/* Inicio de footer*/
-footer{
-    padding: 100px;
-    background-color: #c7bfb8;
-}
-/* Fin de footer*/
 
 /* Inicio de seccion blog*/
 .photos-blog{
