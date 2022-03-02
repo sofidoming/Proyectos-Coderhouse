@@ -5,77 +5,85 @@
 }
 
 /* Inicio de header */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1cm;
+    background-color: white;
+}
+
 .nav-link{
 list-style-type: none;
 font-size: 18px;
+padding: 20px;
+margin: 10px;
 color: #494541;
-padding: 10px;
-margin: 5px;
 }
 
-a{
-    color: #494541;
-}
-
-nav:hover{
-    color: #c7bfb8;
+.nav-link:hover{
+color: #c7bfb8;
 }
 /* Fin de header */
 
-/* Inicio de post */
-h3{
-    color: black;
-    font-size: 72px;
+/* Inicio de carrousel */
+h2{
+    color: white;
 }
-.textc{
-    color: black;
-    font-size: 30px;
-}
-
-.row{
-margin-left: 3cm;
-margin-right: 3cm;
-}
-
-.col-md-7{
-    margin-top: 3cm;
+.carrousel{
+    color: white;
 }
 
 .btn-link{
-    color: #494541;
+    color: white;
 }
 .btn-link:hover{
     color: #c7bfb8;    
 }
+/* Fin de carrousel */
 
-.btn-light{
+/* Inicio de posts */
+.row{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    }
+    
+.col-md-7{
+    margin-top: 3cm;
+    }
+    
+hr{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    }
+
+h3{
+    font-size: 30px;
     color: #494541;
 }
-.btn-light:hover{
-    color: #c7bfb8;
-}
 
-hr{
- margin-left: 3cm;
- margin-right: 3cm;
- margin-top: 2cm;
- margin-bottom: 2cm;
+.btn-link-post{
+    color: #494541;
 }
-
 /* Fin de post */
 
-/* Inicio de subscribe */
+/* Inicio de footer */
 .input-group{
     display: flex;
     justify-content: center;
     font-size: 18px;
-    padding: 8%;
+    padding: 2cm;
 }
 
-a:hover{
-    color: #c7bfb8;;
+h4{
+    display: flex;
+    justify-content: center;
 }
-/* Fin de subscribe*/
+/* Fin de footer*/
+
+
+
 
 /* Inicio de seccion blog*/
 .photos-blog{
