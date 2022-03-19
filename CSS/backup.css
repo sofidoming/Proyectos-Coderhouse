@@ -1,0 +1,118 @@
+*{
+    color: #494541;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Inicio de header */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1cm;
+    background-color: white;
+}
+
+.nav-link{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    color: #494541;
+}
+
+.nav-link:hover{
+color: #c7bfb8;
+}
+/* Fin de header */
+
+/* Inicio de carrousel */
+h2{
+    color: white;
+}
+.carrousel{
+    color: white;
+}
+
+.btn-link{
+    color: white;
+}
+.btn-link:hover{
+    color: #c7bfb8;    
+}
+/* Fin de carrousel */
+
+/* Inicio de posts */
+.row{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    }
+    
+.col-md-7{
+    margin-top: 3cm;
+    }
+    
+hr{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    }
+
+h3{
+    font-size: 30px;
+    color: #494541;
+}
+
+.btn-link-post{
+    color: #494541;
+}
+/* Fin de post */
+
+/* Inicio de footer */
+.input-group{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 2cm;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+/* Fin de footer*/
+
+
+
+
+/* Inicio de seccion blog*/
+.photos-blog{
+    margin-left: 1cm;
+    margin-bottom: 0.3cm;
+}
+
+.post-blog{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1cm;
+    color: #494541;
+}
+
+h5{
+    font-size: 30px;
+}
+
+.pagination{
+    justify-content: center;
+    padding: 2%;
+}
+/* Fin de seccion blog*/
+
+/* Inicio de contact me*/
+.contact-form{
+    padding: 5%;
+}
+/* Inicio de contact me*/
+

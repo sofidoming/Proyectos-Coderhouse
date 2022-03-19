@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1cm;
+    background-color: white;
+    ul {
+        li {
+            .nav-link {
+                list-style-type: none;
+                font-size: 18px;
+                padding: 20px;
+                margin: 10px;
+                color: #494541;
+
+                &:hover {
+                    color: #c7bfb8;
+                }
+            }
+        }
+    }
+}
