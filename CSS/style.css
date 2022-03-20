@@ -4,6 +4,7 @@
   padding: 0%;
 }
 
+/*INICIO DE INDEX*/
 /* Inicio de header */
 header {
   display: flex;
@@ -24,6 +25,10 @@ header ul li .nav-link:hover {
 /* Fin de header */
 
 /* Inicio de carrousel */
+h1{
+  color: white;
+}
+
 h2{
   color: white;
 }
@@ -49,6 +54,10 @@ hr{
 /* Fin de separadores*/
 
 /* Inicio de posts */
+.seccion-post{
+  padding: 2cm;
+}
+
 .row{
   align-items: center;
   
@@ -64,30 +73,90 @@ h3{
 }
 /* Fin de posts */
 
-/* Inicio de footer */
+/* Inicio de subscribe */
+.btn-outline-secondary{
+  color: #494541;
+}
+
 h4{
   display: flex;
   justify-content: center;
+  font-size: 36px;
+  font-weight: 200;
 }
 
 .input-group{
   display: flex;
   justify-content: center;
   font-size: 18px;
-  padding: 2cm;
+  padding: 3cm;
 }
+/* Fin de subscribe*/
 
+/*Inicio de footer*/
+.index-footer{
+  padding-top: 7cm;
+  padding-right: 2cm;
+  padding-bottom: 1cm;
+  padding-left: 2cm;
+  background-color: #494541;
+}
 .float-end{
-  color: #494541;
+  color: white;
 }
-
 .float-end:hover{
   color: #c7bfb8;
 }
+
+.footer-text{
+  color: white;
+}
 /* Fin de footer*/
+/*FIN DE INDEX*/
 
-/* Inicio de about me */
+/*INICIO DE ABOUT ME*/
+.sofia-h1{
+  color: #494541;
+  font-weight: 200;
+}
 
-/* Fin de about me */
+.container{
+  padding: 2cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
+  align-items: center;
+}
+/*FIN DE ABOUT ME*/
+
+/* Inicio de seccion blog */
+.pagination{
+  justify-content: center;
+  padding: 2%;
+}
+/* Fin de seccion blog*/
+
+/* Inicio de contact me*/
+.contact-me{
+  padding: 2cm;
+}
+.contact-me-text{
+  display: flex;
+  font-weight: 200;
+  justify-content: center;
+  margin-bottom: 2cm;
+  font-size: 18px;
+}
+
+.btn-primary{
+  background-color: #c7bfb8;
+  border-color: #c7bfb8;
+  color: #494541;
+}
+.btn-primary:hover{
+  background-color: #494541;
+  border-color: #494541;
+  color: #c7bfb8;
+}
+/* Inicio de contact me*/
 
 /*# sourceMappingURL=style.css.map */
