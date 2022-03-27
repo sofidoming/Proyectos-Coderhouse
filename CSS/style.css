@@ -119,18 +119,30 @@ footer .navigation-bar-footer ul li .nav-link{
   color: #494541
 }
 
-.contact-footer{
-margin: 1cm;
-}
-
 .contact-footer .wss{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.contact-footer .wss img, 
+.contact-footer .mail img{
+  margin-right: 6px;
 }
 
 .contact-footer .mail{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.contact-footer .mail p, .contact-footer .wss p{
+  margin-bottom: 0;
+}
+.contact-footer {
+  margin: 50px;
+}
+.contact-footer > * {
+  padding: 8px;
 }
 
 .float-end{
