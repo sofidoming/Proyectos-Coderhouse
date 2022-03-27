@@ -2,6 +2,8 @@
   color: #494541;
   margin: 0%;
   padding: 0%;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 /*INICIO DE INDEX*/
@@ -94,23 +96,50 @@ h4{
 /* Fin de subscribe*/
 
 /*Inicio de footer*/
-.index-footer{
-  padding-top: 7cm;
-  padding-right: 2cm;
-  padding-bottom: 1cm;
-  padding-left: 2cm;
-  background-color: #494541;
+footer{
+  background-color: #E4E1DF;
+  padding: 1cm;
+  color: #665D58;
 }
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos{
+  margin: 1cm;
+}
+
+footer .navigation-bar-footer ul li .nav-link{
+  margin: 1cm;
+  list-style-type: none;
+  font-size: 16px;
+  color: #494541
+}
+
+.contact-footer{
+margin: 1cm;
+}
+
+.contact-footer .wss{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-footer .mail{
+  display: flex;
+  justify-content: center;
+}
+
 .float-end{
-  color: white;
+  color: #665D58;
 }
 .float-end:hover{
   color: #c7bfb8;
 }
 
-.footer-text{
-  color: white;
-}
 /* Fin de footer*/
 /*FIN DE INDEX*/
 
@@ -118,6 +147,8 @@ h4{
 .sofia-h1{
   color: #494541;
   font-weight: 200;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .container{
@@ -129,6 +160,17 @@ h4{
 /*FIN DE ABOUT ME*/
 
 /* Inicio de seccion blog */
+
+.posts{
+padding: 1cm;
+padding-left: 4cm;
+padding-right: 4cm;
+}
+
+.col{
+  padding-right: 1cm;
+}
+
 .pagination{
   justify-content: center;
   padding: 2%;
