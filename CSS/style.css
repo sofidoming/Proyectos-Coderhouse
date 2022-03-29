@@ -63,12 +63,6 @@ h2{
   color: white;
 }
 
-/*.carousel-caption{
-  background-color: rgba(0, 0, 0, 0.562);
-  right: 30%;
-  left: 30%;
-}*/
-
 .btn-link{
   color: white;
 }
@@ -106,8 +100,7 @@ hr{
 }
 
 .row{
-  align-items: center;
-  
+  align-items: center; 
 }
 
 h3{
@@ -121,22 +114,31 @@ h3{
 /* Fin de posts */
 
 /* Inicio de subscribe */
+.subscribe{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
 .btn-outline-secondary{
   color: #494541;
 }
 
 h4{
-  display: flex;
-  justify-content: center;
-  font-size: 36px;
+  align-items: center;
+  font-size: 25px;
   font-weight: 200;
+  margin: 2rem;
+  text-align: center;
 }
 
-.input-group{
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  padding: 3cm;
+.input-group .btn{
+  font-size: 14px;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+  font-size: 14px;
 }
 /* Fin de subscribe*/
 
@@ -205,14 +207,22 @@ footer .navigation-bar-footer ul li .nav-link{
   font-weight: 200;
   font-family: 'Great Vibes', cursive;
   font-family: 'Julius Sans One', sans-serif;
+  margin-top: 1rem;
 }
 
-.container{
-  padding: 2cm;
-  margin-right: 2cm;
-  margin-left: 2cm;
+.row-about{
+  display: flex;
+  flex-wrap: wrap;
+  --bs-gutter-x: 5rem;
+  margin: 2rem;
   align-items: center;
 }
+
+.photo-me{
+  width: 100%!important;
+  padding: 3rem;
+}
+
 /*FIN DE ABOUT ME*/
 
 /*INICIO DE BLOG*/
@@ -227,7 +237,7 @@ padding-top: 2rem;
 
 .pagination{
   justify-content: center;
-  padding: 2%;
+  margin-bottom: 3rem;
 }
 /*FIN DE BLOG*/
 
