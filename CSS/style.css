@@ -69,6 +69,24 @@ h2{
 .btn-link:hover{
   color: #c7bfb8;    
 }
+
+.w-300{
+  height: 300px;
+  object-fit: cover;
+}
+@media screen and (min-width:768px) {
+  .w-300{
+    height: 500px;
+    object-fit: cover;
+  } 
+}
+@media screen and (min-width:1024px) {
+  .w-300{
+    height: 500px;
+    object-fit: cover;
+  }
+} 
+
 /* Fin de carrousel */
 
 /* Inicio de separadores */
@@ -220,7 +238,10 @@ footer .navigation-bar-footer ul li .nav-link{
 
 .photo-me{
   width: 100%!important;
-  padding: 3rem;
+}
+
+.text-about{
+  padding: 2rem;
 }
 
 /*FIN DE ABOUT ME*/
@@ -231,7 +252,7 @@ padding: 3rem;
 padding-top: 2rem;
 }
 
-.row{
+.row-blog{
   --bs-gutter-x: 5rem;
 }
 
