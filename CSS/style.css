@@ -88,14 +88,18 @@ h2{
   }
 } 
 
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.img-post{
+  padding: 0%;
+}
 /* Fin de carrousel */
 
 /* Inicio de separadores */
 hr{
-  margin-left: 3cm;
-  margin-right: 3cm;
-  margin-top: 2cm;
-  margin-bottom: 2cm;
+  margin: 6rem;
   }
 /* Fin de separadores*/
 
@@ -119,7 +123,8 @@ hr{
 }
 
 .row{
-  align-items: center; 
+  align-items: center;
+  --bs-gutter-x: 0rem;
 }
 
 h3{
@@ -129,6 +134,11 @@ h3{
 
 .btn-link-post{
   color: #494541;
+}
+
+.text-post{
+  padding: 2rem;
+  padding-top: 0rem;
 }
 /* Fin de posts */
 

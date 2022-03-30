@@ -9,7 +9,6 @@
 
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon">
@@ -27,29 +26,32 @@
 
 <body>
 <!-- Inicio de header-->
-<header class="navbar navbar-expand-sm navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link nav-link-active" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Htmls/aboutme.html">ABOUT ME</a>
+          <a class="nav-link" href="./Htmls/aboutme.html">ABOUT ME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Htmls/blog.html">BLOG</a>
+          <a class="nav-link" href="./Htmls/blog.html">BLOG</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Htmls/contactme.html">CONTACT ME</a>
+          <a class="nav-link" href="./Htmls/contactme.html">CONTACT ME</a>
         </li>
-    </ul>
+      </ul>
+    </div>
   </div>
+</nav>
 </header>
-<!-- Fin de header-->
+<!--Fin de header-->
 
 <!-- Inicio de carrusel-->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -104,7 +106,7 @@
 <!-- Inicio de posts-->
 <div class="seccion-post">
   <div class="row featurette">
-    <div class="col-md-7 col-sm-7">
+    <div class="col-md-7 col-sm-7 text-post">
       <h3 class="featurette-heading">"Quiero viajar sola pero no me animo" <span class="text-muted">manual para futuras viajeras</span></h3>
       <p class="lead">Uno de los mails más frecuentes que recibo es de chicas que quieren viajar solas pero no se animan. Tienen miedo, tienen muchas preguntas, creen que no tienen “la personalidad adecuada” para viajar solas...</p>
       <button type="button" class="btn btn-link btn-link-post">Leer más</button>
@@ -117,7 +119,7 @@
 <hr class="featurette-divider">
 
 <div class="row featurette">
-  <div class="col-md-7 col-sm-7 order-md-2">
+  <div class="col-md-7 col-sm-7 order-md-2 text-post">
     <h3 class="featurette-heading">"Mi Buenos Aires querido" <span class="text-muted">mapa de emociones</span></h3>
     <p class="lead">Una vez un amigo extranjero me dijo: "Yo quiero conocer Buenos Aires, pero quiero conocer TU Buenos Aires, los lugares que te hicieron alguna vez feliz..."</p>
     <button type="button" class="btn btn-link btn-link-post">Leer más</button>
@@ -130,7 +132,7 @@
 <hr class="featurette-divider">
 
 <div class="row">
-  <div class="col-md-7 col-sm-7">
+  <div class="col-md-7 col-sm-7 text-post">
     <h3 class="featurette-heading">"Ciudadanía Italiana" <span class="text-muted">Paso a paso, sin perder las esperanzas</span></h3>
     <p class="lead">Tengo un pariente lejano italiano ¿Puedo hacer la ciudadanía? ¿Qué papeles necesito? ¿Por dónde empiezo? Son preguntas que me llegan a menudo. No te preocupes, todos pasamos por eso…</p>
     <button type="button" class="btn btn-link btn-link-post">Leer más</button>
@@ -156,8 +158,8 @@
 <!-- Inicio de seccion footer-->
 <footer>
   <div class="social-media">
-  <a href="https://www.facebook.com/sofi.d5/" target="_blank"> <img class="iconos" src="./icons/facebook.png" alt="logo de facebook" width="30px" height="30px"></a>
-  <a href="https://www.instagram.com/sofidoming/" target="_blank"> <img class="iconos" src="./icons/instagram.png" alt="logo de instagram" width="30px" height="30px"> </a>
+  <a href="https://www.facebook.com/sofi.d5/" target="_blank"> <img class="iconos" src="./icons/facebook.svg" alt="logo de facebook" width="30px" height="30px"></a>
+  <a href="https://www.instagram.com/sofidoming/" target="_blank"> <img class="iconos" src="./icons/instagram.svg" alt="logo de instagram" width="30px" height="30px"> </a>
   </div>
 
   <div class="navigation-bar-footer">
@@ -179,11 +181,11 @@
 
   <div class="contact-footer">
     <div class="wss">
-    <img class="iconos-2" src="./icons/whatsapp.png" alt="icono de whatsapp" width="30px" height="30px">
+    <img class="iconos-2" src="./icons/whatsapp.svg" alt="icono de whatsapp" width="30px" height="30px">
     <p>+54 9 2314-439013</p>
   </div>
   <div class="mail">
-    <img class="iconos-2" src="./icons/mail.png" alt="icono del mail" width="30px" height="30px">
+    <img class="iconos-2" src="./icons/mail.svg" alt="icono del mail" width="30px" height="30px">
     <p>sofidoming98@gmail.com</p>
   </div>
   </div>
@@ -192,5 +194,7 @@
   <p class="footer-text">© 2022 by Sofia Dominguez.</p>
 </footer>
 <!-- Fin de seccion footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
