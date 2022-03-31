@@ -174,7 +174,7 @@ h4{
 /*Inicio de footer*/
 footer{
   background-color: #E4E1DF;
-  padding: 1cm;
+  padding: 3rem;
   color: #665D58;
 }
 
@@ -185,7 +185,7 @@ footer{
 }
 
 .iconos{
-  margin: 1cm;
+  margin: 1rem;
 }
 
 footer .navigation-bar-footer ul li .nav-link{
@@ -281,7 +281,7 @@ padding-top: 2rem;
   display: flex;
   font-weight: 200;
   justify-content: center;
-  margin-bottom: 2cm;
+  margin-bottom: 3rem;
   font-size: 18px;
 }
 
